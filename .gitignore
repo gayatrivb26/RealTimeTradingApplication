@@ -1,0 +1,32 @@
+##################################
+# .NET / Visual Studio
+##################################
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+##################################
+# Node / Angular
+##################################
+node_modules/
+dist/
+.angular/
+
+##################################
+# Environment / Secrets
+##################################
+appsettings.Development.json
+appsettings.Local.json
+.env
+
+##################################
+# OS / Editor
+##################################
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
