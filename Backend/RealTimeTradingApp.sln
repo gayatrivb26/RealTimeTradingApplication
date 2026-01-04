@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeTradingApp.Domain", "RealTimeTradingApp.Domain\RealTimeTradingApp.Domain.csproj", "{643DF32D-4494-4D69-8EE3-7F0A5475DCC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeTradingApp.Application", "RealTimeTradingApp.Application\RealTimeTradingApp.Application.csproj", "{5F537602-5E7B-4976-8B38-BD01DCFED502}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeTradingApp.Infrastructure", "RealTimeTradingApp.Infrastructure\RealTimeTradingApp.Infrastructure.csproj", "{6538F5A5-0B8C-43A5-BE11-255DF9EF768D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeTradingApp.API", "RealTimeTradingApp.API\RealTimeTradingApp.API.csproj", "{3A57860B-0AEE-432B-8D26-075AFA77B542}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeTradingApp.BackgroundWorker", "RealTimeTradingApp.BackgroundWorker\RealTimeTradingApp.BackgroundWorker.csproj", "{6CB1C3DC-CD7F-437E-BAF5-F21AD7502542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{643DF32D-4494-4D69-8EE3-7F0A5475DCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643DF32D-4494-4D69-8EE3-7F0A5475DCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643DF32D-4494-4D69-8EE3-7F0A5475DCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643DF32D-4494-4D69-8EE3-7F0A5475DCC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F537602-5E7B-4976-8B38-BD01DCFED502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F537602-5E7B-4976-8B38-BD01DCFED502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F537602-5E7B-4976-8B38-BD01DCFED502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F537602-5E7B-4976-8B38-BD01DCFED502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6538F5A5-0B8C-43A5-BE11-255DF9EF768D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6538F5A5-0B8C-43A5-BE11-255DF9EF768D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6538F5A5-0B8C-43A5-BE11-255DF9EF768D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6538F5A5-0B8C-43A5-BE11-255DF9EF768D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A57860B-0AEE-432B-8D26-075AFA77B542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A57860B-0AEE-432B-8D26-075AFA77B542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A57860B-0AEE-432B-8D26-075AFA77B542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A57860B-0AEE-432B-8D26-075AFA77B542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB1C3DC-CD7F-437E-BAF5-F21AD7502542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB1C3DC-CD7F-437E-BAF5-F21AD7502542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB1C3DC-CD7F-437E-BAF5-F21AD7502542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB1C3DC-CD7F-437E-BAF5-F21AD7502542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
